@@ -36,6 +36,8 @@ public class HangmanMCTest {
         boolean updateCalled = mockView.isUpdateCalled();
     }
 
+
+
     @Test
     public void test_01() {
         // A COMPLETER
