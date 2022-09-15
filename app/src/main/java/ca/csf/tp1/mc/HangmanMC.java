@@ -4,6 +4,7 @@ import static ca.csf.tp1.enumerations.GameStatus.WORD_NOT_FOUND_YET;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import ca.csf.tp1.enumerations.GameStatus;
 
@@ -13,6 +14,7 @@ public class HangmanMC {
     private GameStatus status;
     List<Character> usedLetters = new ArrayList<Character>();
     private int nbErrors;
+    private static final String[] motADeviner = {"poule","giraffe","cochon","singe","chat"};
 
     public HangmanMC(List<Character> usedLetters) {
         this.wordToFind = "";
@@ -38,9 +40,7 @@ public class HangmanMC {
         this.discoveredWord = discoveredWord;
     }
 
-    public void initDiscoveredWord() {
-
-    }
+    public void initDiscoveredWord() {}
 
     public GameStatus getGameStatus() {
         return status;
@@ -58,6 +58,5 @@ public class HangmanMC {
         return nbErrors;
     }
 
-    public void playLetter(char charAt) {
-    }
+    public void playLetter(char charAt) {}
 }

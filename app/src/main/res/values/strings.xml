@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Hangman</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="mot_trouv_date">Word found by now:</string>
 </resources>

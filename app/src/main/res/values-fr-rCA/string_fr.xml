@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bonhomme pendu</string>
+    <string name="play_again">JOUER ENCORE</string>
+    <string name="mot_trouv_date">Mot trouvé à date:</string>
+</resources>
